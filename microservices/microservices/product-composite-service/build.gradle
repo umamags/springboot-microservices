@@ -23,6 +23,9 @@ repositories {
 	mavenCentral()
 }
 
+test {
+    testLogging.showStandardStreams = true
+}
 
 dependencies {
 	implementation project(':api')
